@@ -169,7 +169,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRouter } from "vue-router";
-import api from "../api";
+import api from "../config/api";
 
 const router = useRouter();
 const feedbacks = ref([]);

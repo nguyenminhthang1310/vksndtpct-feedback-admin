@@ -27,7 +27,7 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
-import api from "../api"; // import axios instance
+import api from "../config/api"; // import axios instance
 
 const router = useRouter();
 const username = ref("");

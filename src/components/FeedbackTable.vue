@@ -34,7 +34,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import API from "../api";
+import API from "../config/api";
 
 const feedbacks = ref([]);
 
